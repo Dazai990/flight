@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+/* sh style*/
+.bod{
+  /* background-image: url('./assets/Glacier-themed-airplane-Icelandair-1200x607.jpg');  */
+  background-image: url(../public/assets/sun_aero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: fit-content;
+  /* color: #fff; */
+}
+.sty {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem auto;
+  /* max-width: 500px; */
+  color: #fff;
+  max-width: 900px;
+  width: 100%;
+  display:inline-block;
+}
+.carousel-img-container {
+  height: 300px; 
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.carousel-img-container img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+button {
+  margin-right: 4rem;
+  padding: 0.5rem 1rem;
+  border: red;
+  
+}
+/* style */
+.head{
+  background-color: #4192d9;
+}
+.fom{
+  background-image:  url(../public/assets/s-img.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btnStyle{
+  background-color:rgb(252, 144, 81);   
+  opacity: 0.7;
+}
+.btnStyle:hover {
+  background-color: #ececec;
+  font-size: large;
+}
+.back-image{
+  background-image: url(../public/assets/sun_aero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; 
+}
+/* .pay-img{
+  background-image: url(../main-img.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  height: 100vh;
+  width: 100%;
+} */
+/* style */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
